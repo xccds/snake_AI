@@ -107,7 +107,7 @@ class Game:
         self.frame = 0
         self.running = True
         self.Clock = pygame.time.Clock()
-        self.fps = 10
+        self.fps = 1
         self.font = pygame.font.Font(None, 32)
         self.snake = Snake(self.block_size)
         self.berry = Berry(self.block_size)

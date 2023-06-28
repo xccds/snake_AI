@@ -59,5 +59,5 @@ def play():
             print('Game', agent.n_game, 'Score', score, 'Record:', record)
 
 if __name__ == '__main__':
-    train()
-    #play()
+    #train()
+    play()
